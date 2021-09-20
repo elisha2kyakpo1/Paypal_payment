@@ -1,0 +1,29 @@
+{
+  "name": "paypal_payment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elisha2kyakpo1/Paypal_payment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elisha2kyakpo1/Paypal_payment/issues"
+  },
+  "homepage": "https://github.com/elisha2kyakpo1/Paypal_payment#readme",
+  "dependencies": {
+    "@paypal/checkout-server-sdk": "^1.0.2",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

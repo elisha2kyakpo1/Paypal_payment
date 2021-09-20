@@ -28,7 +28,6 @@ const Environment =
     )
   )
 
-
 app.get('/', (req, res) => {
   res.render('index', {
     paypalClientId: process.env.PAYPAY_CLIENT_ID
